@@ -134,11 +134,13 @@ export default function Home() {
                 keratin_ch
               </p>
 
-              <p className="mt-2 text-right text-lg font-medium">
-                Красота начинается
-                <br />
-                со здоровья волос
-              </p>
+              <div className="flex justify-end">
+  <p className="mt-2 text-right text-lg font-medium">
+    Красота начинается
+    <br />
+    со здоровья волос
+  </p>
+</div>
             </div>
           </div>
         </div>
