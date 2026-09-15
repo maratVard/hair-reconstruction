@@ -10,15 +10,15 @@ export default function Home() {
   <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 md:px-6 md:py-5">
 
     {/* LOGO */}
-    <div className="flex min-w-0 flex-col">
-      <div className="text-base font-medium tracking-wide leading-tight md:text-lg">
-        KERATIN_CH
-      </div>
+<div className="flex min-w-0 flex-col items-center text-center">
+  <div className="text-base font-medium leading-tight tracking-wide md:text-lg">
+    KERATIN_CH
+  </div>
 
-      <div className="mt-1 max-w-[180px] text-[8px] uppercase leading-tight tracking-[0.18em] text-[#9a8172] md:max-w-none md:text-[10px] md:tracking-[0.25em]">
-        Кератин · Ботокс
-      </div>
-    </div>
+  <div className="mt-1 max-w-[180px] text-[8px] uppercase leading-tight tracking-[0.18em] text-[#9a8172] md:max-w-none md:text-[10px] md:tracking-[0.25em]">
+    Кератин · Ботокс
+  </div>
+</div>
 
     {/* NAVIGATION — только на компьютере */}
     <nav className="hidden items-center gap-8 text-sm text-[#6f625b] md:flex">
