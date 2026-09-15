@@ -79,68 +79,72 @@ export default function Home() {
       </header>
 
       {/* ================= HERO ================= */}
-      <section id="top" className="relative overflow-hidden">
-        <div className="mx-auto grid min-h-[calc(100vh-80px)] max-w-7xl items-center gap-16 px-6 py-20 lg:grid-cols-[1.1fr_0.9fr]">
+<section id="top" className="relative overflow-hidden">
+  <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 py-14 md:py-20 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
 
-          {/* Текст */}
-          <div className="max-w-3xl text-center">
-            <p className="mb-6 text-xs font-medium uppercase tracking-[0.35em] text-[#9a8172]">
-              Профессиональная реконструкция волос
-            </p>
+    {/* Текст */}
+    <div className="max-w-3xl text-center lg:text-left">
+      <p className="mb-6 text-xs font-medium uppercase tracking-[0.35em] text-[#9a8172]">
+        Профессиональная реконструкция волос
+      </p>
 
-            <h1 className="text-5xl font-medium leading-[1.05] tracking-tight sm:text-6xl lg:text-6.8xl">
-              ВОЛОСЫ, КОТОРЫЕ
-              <br />
-              ХОЧЕТСЯ ТРОГАТЬ.
-            </h1>
+      <h1 className="text-5xl font-medium leading-[1.05] tracking-tight sm:text-6xl">
+        ВОЛОСЫ, КОТОРЫЕ
+        <br />
+        ХОЧЕТСЯ ТРОГАТЬ.
+      </h1>
 
-            <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <a
-                href={instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-full bg-[#302925] px-8 py-4 text-center text-sm font-medium text-white transition hover:bg-[#4b403a]"
-              >
-                Записаться
-              </a>
+      <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row lg:justify-start">
+        <a
+          href={instagram}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-full bg-[#302925] px-8 py-4 text-center text-sm font-medium text-white transition hover:bg-[#4b403a]"
+        >
+          Записаться
+        </a>
 
-              <a
-                href="#results"
-                className="rounded-full border border-[#302925]/20 px-8 py-4 text-center text-sm font-medium transition hover:bg-white"
-              >
-                Посмотреть работы
-              </a>
-            </div>
+        <a
+          href="#results"
+          className="rounded-full border border-[#302925]/20 px-8 py-4 text-center text-sm font-medium transition hover:bg-white"
+        >
+          Посмотреть работы
+        </a>
+      </div>
 
-            <div className="mt-14 flex flex-wrap justify-center gap-x-10 gap-y-4 text-sm text-[#7d6d64]">
-              <span>● Работаю с 2020 года</span>
-              <span>● Премиальные составы</span>
-              <span>● Индивидуальный подход</span>
-            </div>
-          </div>
+      <div className="mt-10 flex flex-wrap justify-center gap-x-8 gap-y-3 text-sm text-[#7d6d64] lg:justify-start">
+        <span>● Работаю с 2020 года</span>
+        <span>● Премиальные составы</span>
+        <span>● Индивидуальный подход</span>
+      </div>
+    </div>
 
-          {/* Визуальный блок */}
-          <div className="relative w-full">
-            <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[2.5rem] bg-[#ddd2ca]">
-              <img
-                src="/Для шапки.png"
-                alt="Результат работы с волосами"
-                className="absolute inset-0 h-full w-full object-cover"
-              />
-            </div>
+    {/* Визуальный блок */}
+    <div className="relative mx-auto w-full max-w-xl lg:max-w-none">
+      <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[2.5rem] bg-[#ddd2ca]">
+        <img
+          src="/Для шапки.png"
+          alt="Результат работы с волосами"
+          className="h-full w-full object-cover"
+        />
+      </div>
 
-            <div className="absolute -bottom-6 right-4 rounded-3xl bg-white p-6 shadow-xl shadow-black/5 md:-right-6">
-              <p className="text-xs uppercase tracking-[0.2em] text-[#9a8172]">
-                keratin_ch
-              </p>
+      {/* Карточка поверх фото справа */}
+      <div className="absolute -bottom-5 right-4 z-10 rounded-3xl bg-white p-5 shadow-xl shadow-black/5 sm:right-6 sm:p-6 lg:-right-6">
+        <p className="text-xs uppercase tracking-[0.2em] text-[#9a8172]">
+          keratin_ch
+        </p>
 
-              <p className="mt-2 text-lg font-medium">
-                Красота начинается
-                <br />
-                со здоровья волос
-              </p>
-            </div>
-          </div>
+        <p className="mt-2 text-base font-medium sm:text-lg">
+          Красота начинается
+          <br />
+          со здоровья волос
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
 
           {/* ================= INTRO ================= */}
           <section className="border-y border-[#302925]/10 bg-[#302925] px-6 py-20 text-white">
