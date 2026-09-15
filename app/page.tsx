@@ -16,7 +16,7 @@ export default function Home() {
       </div>
 
       <div className="mt-1 max-w-[180px] text-[8px] uppercase leading-tight tracking-[0.18em] text-[#9a8172] md:max-w-none md:text-[10px] md:tracking-[0.25em]">
-        Кератин · Ботокс · Холодное восстановление
+        Кератин · Ботокс
       </div>
     </div>
 
@@ -308,11 +308,11 @@ export default function Home() {
 
               <div className="p-7">
                 <p className="text-xs uppercase tracking-[0.2em] text-[#9a8172]">
-                  До
+                  После процедуры
                 </p>
 
                 <h3 className="mt-3 text-2xl font-medium">
-                  Исходное состояние
+                  Блонд
                 </h3>
               </div>
             </div>
@@ -326,7 +326,7 @@ export default function Home() {
 
               <div className="p-7">
                 <p className="text-xs uppercase tracking-[0.2em] text-[#9a8172]">
-                  После
+                  До/После
                 </p>
 
                 <h3 className="mt-3 text-2xl font-medium">
@@ -340,7 +340,7 @@ export default function Home() {
           <div className="mt-6 grid gap-6 md:grid-cols-2">
             <div className="overflow-hidden rounded-[2rem] bg-white">
               <video
-                src="/Видео После 2.mov"
+                src="/Видео После 2.MOV"
                 controls
                 playsInline
                 className="w-full h-auto object-contain"
@@ -359,7 +359,7 @@ export default function Home() {
 
             <div className="overflow-hidden rounded-[2rem] bg-white">
               <video
-                src="/Видео После.mov"
+                src="/Видео После.MOV"
                 controls
                 playsInline
                 className="w-full h-auto object-contain"
