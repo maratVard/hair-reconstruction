@@ -134,7 +134,7 @@ export default function Home() {
                 keratin_ch
               </p>
 
-              <p className="mt-2 text-lg font-medium">
+              <p className="mt-2 text-right text-lg font-medium">
                 Красота начинается
                 <br />
                 со здоровья волос
