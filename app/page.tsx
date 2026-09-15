@@ -5,64 +5,78 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-[#f6f2ee] text-[#302925]">
-      {/* ================= HEADER ================= */}
-      <header className="sticky top-0 z-50 border-b border-[#302925]/10 bg-[#f6f2ee]/90 backdrop-blur-md">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5"> 
-        <div className="flex flex-col">
-        <div className="text-lg font-medium tracking-wide leading-tight">
-          KERATIN_CH
-        </div>
-        <div className="mt-1 text-[10px] uppercase tracking-[0.25em] text-[#9a8172]">
-          Кератин · Ботокс · Холодное восстановление
-        </div>
-        </div>
+     {/* ================= HEADER ================= */}
+<header className="sticky top-0 z-50 border-b border-[#302925]/10 bg-[#f6f2ee]/90 backdrop-blur-md">
+  <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 md:px-6 md:py-5">
 
-          <nav className="hidden items-center gap-8 text-sm text-[#6f625b] md:flex">
-            <a href="#about" className="transition hover:text-[#302925]">
-              О мастере
-            </a>
+    {/* LOGO */}
+    <div className="flex min-w-0 flex-col">
+      <div className="text-base font-medium tracking-wide leading-tight md:text-lg">
+        KERATIN_CH
+      </div>
 
-            <a href="#results" className="transition hover:text-[#302925]">
-              Работы
-            </a>
+      <div className="mt-1 max-w-[180px] text-[8px] uppercase leading-tight tracking-[0.18em] text-[#9a8172] md:max-w-none md:text-[10px] md:tracking-[0.25em]">
+        Кератин · Ботокс · Холодное восстановление
+      </div>
+    </div>
 
-            <a href="#services" className="transition hover:text-[#302925]">
-              Услуги
-            </a>
+    {/* NAVIGATION — только на компьютере */}
+    <nav className="hidden items-center gap-8 text-sm text-[#6f625b] md:flex">
+      <a href="#about" className="transition hover:text-[#302925]">
+        О мастере
+      </a>
 
-            <a href="#reviews" className="transition hover:text-[#302925]">
-              Отзывы
-            </a>
-          </nav>
+      <a href="#results" className="transition hover:text-[#302925]">
+        Работы
+      </a>
 
-          <div className="flex flex-wrap gap-3">
-            <a
-             href={instagram}
-             target="_blank"
-             rel="noopener noreferrer"
-             className="rounded-full bg-[#302925] px-5 py-3 text-sm font-medium text-white transition hover:bg-[#4b403a]"
-            >
-             Instagram
-            </a>
+      <a href="#services" className="transition hover:text-[#302925]">
+        Услуги
+      </a>
 
-            <a
-             href={telegram}
-             target="_blank"
-             rel="noopener noreferrer"
-             className="rounded-full bg-[#302925] px-5 py-3 text-sm font-medium text-white transition hover:bg-[#4b403a]"
-            >
-             Telegram
-            </a>
+      <a href="#reviews" className="transition hover:text-[#302925]">
+        Отзывы
+      </a>
+    </nav>
 
-            <a
-             href="tel:+79086707959"
-             className="rounded-full bg-[#302925] px-5 py-3 text-sm font-medium text-white transition hover:bg-[#4b403a]"
-            >
-             Позвонить
-            </a>
-         </div>
-        </div>
-      </header>
+    {/* CONTACTS */}
+    <details className="relative">
+      <summary className="cursor-pointer list-none rounded-full bg-[#302925] px-4 py-2.5 text-sm font-medium text-white transition hover:bg-[#4b403a] md:px-5 md:py-3">
+        Контакты
+      </summary>
+
+      <div className="absolute right-0 top-12 flex w-48 flex-col gap-2 rounded-2xl border border-[#302925]/10 bg-[#f6f2ee] p-3 shadow-lg">
+
+        <a
+          href={instagram}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-xl px-4 py-3 text-sm text-[#302925] transition hover:bg-[#ebe3dd]"
+        >
+          Instagram
+        </a>
+
+        <a
+          href={telegram}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-xl px-4 py-3 text-sm text-[#302925] transition hover:bg-[#ebe3dd]"
+        >
+          Telegram
+        </a>
+
+        <a
+          href="tel:+79086707959"
+          className="rounded-xl px-4 py-3 text-sm text-[#302925] transition hover:bg-[#ebe3dd]"
+        >
+          Позвонить
+        </a>
+
+      </div>
+    </details>
+
+  </div>
+</header>
 
       {/* ================= HERO ================= */}
       <section id="top" className="relative overflow-hidden">
