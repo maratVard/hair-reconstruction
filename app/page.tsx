@@ -120,18 +120,27 @@ export default function Home() {
           </div>
 
           {/* Визуальный блок */}
-          <div className="absolute -bottom-6 -right-6 rounded-3xl bg-white p-6 shadow-xl shadow-black/5">
-            <p className="text-xs uppercase tracking-[0.2em] text-[#9a8172]">
-              keratin_ch
-            </p>
+          <div className="relative">
+            <div className="aspect-[4/5] overflow-hidden rounded-[2.5rem] bg-[#ddd2ca]">
+              <img
+                src="/Для шапки.png"
+                alt="Результат работы с волосами"
+                className="h-full w-full object-cover"
+              />
+            </div>
 
-            <p className="mt-2 text-lg font-medium">
-              Красота начинается
-              <br />
-              со здоровья волос
-            </p>
+            <div className="absolute -bottom-6 -right-6 rounded-3xl bg-white p-6 shadow-xl shadow-black/5">
+              <p className="text-xs uppercase tracking-[0.2em] text-[#9a8172]">
+                keratin_ch
+              </p>
+
+              <p className="mt-2 text-lg font-medium">
+                Красота начинается
+                <br />
+                со здоровья волос
+              </p>
+            </div>
           </div>
-        </div>
       </section>
 
       {/* ================= INTRO ================= */}
