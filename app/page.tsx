@@ -912,16 +912,16 @@ export default function Home() {
             >
               Написать в Telegram
             </a>
-          </div>
 
-          <a
+            <a
               href="https://max.ru/u/f9LHodD0cOIexygnjQJrleMM6XTOSXzCwSKwIn_W9OrN9lEDyJ8TaFzsQD0"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center rounded-full bg-[#302925] px-6 py-3 text-sm font-medium text-white transition hover:bg-[#4b403a]"
+              className="rounded-full border border-[#302925]/20 bg-white px-8 py-4 text-sm font-medium transition hover:bg-[#f5f1ee]"
             >
               Написать в MAX
             </a>
+          </div>
 
           <div className="mt-10 text-sm text-[#7d6d64]">
             <p>Новороссийск, Россия</p>
@@ -933,6 +933,7 @@ export default function Home() {
               +79086707959
             </a>
           </div>
+
         </div>
       </section>
 
