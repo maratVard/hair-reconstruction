@@ -69,7 +69,7 @@ export default function Home() {
                 href="https://max.ru/u/f9LHodD0cOIexygnjQJrleMM6XTOSXzCwSKwIn_W9OrN9lEDyJ8TaFzsQD0"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-xl px-3 py-2 text-sm text-[#302925] transition hover:bg-[#ebe3dd]"
+                className="rounded-xl px-4 py-3 text-sm text-[#302925] transition hover:bg-[#ebe3dd]"
               >
                 MAX
               </a>
@@ -914,6 +914,15 @@ export default function Home() {
             </a>
           </div>
 
+          <a
+              href="https://max.ru/u/f9LHodD0cOIexygnjQJrleMM6XTOSXzCwSKwIn_W9OrN9lEDyJ8TaFzsQD0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center rounded-full bg-[#302925] px-6 py-3 text-sm font-medium text-white transition hover:bg-[#4b403a]"
+            >
+              Написать в MAX
+            </a>
+
           <div className="mt-10 text-sm text-[#7d6d64]">
             <p>Новороссийск, Россия</p>
 
@@ -949,15 +958,6 @@ export default function Home() {
               className="transition hover:text-[#302925]"
             >
               Telegram
-            </a>
-
-            <a
-              href="https://max.ru/u/f9LHodD0cOIexygnjQJrleMM6XTOSXzCwSKwIn_W9OrN9lEDyJ8TaFzsQD0"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center rounded-full bg-[#302925] px-6 py-3 text-sm font-medium text-white transition hover:bg-[#4b403a]"
-            >
-              Написать в MAX
             </a>
 
             <a
